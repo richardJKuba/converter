@@ -20,8 +20,8 @@ if activebutton:
         data = stringio.read()
         message.write(data)
 
-        with open("pages/file_cont/tempfile.txt", "w") as tempfile:
-            tempfile.write(data)
+        # with open("pages/file_cont/tempfile.txt", "w") as tempfile:
+        #     tempfile.write(data)
 
         st.download_button(
             label="Download data as CSV",
